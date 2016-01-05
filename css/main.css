@@ -270,7 +270,8 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #555;
+/*color: $link-color;*/
+  color: #58b2dc;
   text-decoration: none;
   border-bottom: 1px solid #999;
 }
@@ -890,7 +891,7 @@ body {
   margin: 0 auto;
   max-width: 96px;
   height: auto;
-  border: 2px solid #333;
+/*border: 2px solid #333;*/
   padding: 2px;
 }
 .site-author-name {
@@ -965,7 +966,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e370ff;
+  background: #6567ff;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -1920,17 +1921,20 @@ body {
 .category-all-page .category-all-title {
   text-align: center;
 }
-.category-all-page .category-all {
-  margin-top: 20px;
-}
+.category-all-page .category-all,
 .category-all-page .category-list {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-size: 12px;
+  text-align: center;
 }
 .category-all-page .category-list-item {
   display: inline-block;
   margin: 10px;
+}
+.category-all-page .category-list-link {
+  display: inline-block;
 }
 .category-all-page .category-list-count {
   color: #bbb;
