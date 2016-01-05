@@ -270,7 +270,6 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-/*color: $link-color;*/
   color: #58b2dc;
   text-decoration: none;
   border-bottom: 1px solid #999;
@@ -891,7 +890,6 @@ body {
   margin: 0 auto;
   max-width: 96px;
   height: auto;
-/*border: 2px solid #333;*/
   padding: 2px;
 }
 .site-author-name {
@@ -966,7 +964,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d54ec8;
+  background: #25ff6c;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -1921,13 +1919,12 @@ body {
 .category-all-page .category-all-title {
   text-align: center;
 }
-.category-all-page .category-all {
-  margin-top: 20px;
-}
 .category-all-page .category-list {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+  font-size: 12px;
 }
 .category-all-page .category-list-item {
   display: inline-block;
