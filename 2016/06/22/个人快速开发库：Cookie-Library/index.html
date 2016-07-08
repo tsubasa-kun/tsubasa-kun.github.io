@@ -61,8 +61,8 @@
 <meta property="og:description" content="前言前前后后做了安卓开发也有些日子，但是唯一遗憾的是还没能做出什么像样的个人作品，虽然零零散散的倒是有那么几个。
 现在总结自己开发的习惯，把自己常用的开发库和一些自己整理的工具类、自定义控件，一些基本类的基类等整合起来，做成一个快速开发库，供以后使用。虽说是自己用的，当然，如果你也感兴趣，也可以试试看，在使用过程中有什么好的建议，也欢迎互相交流。
 那么，接下来就开始简单的介绍一下这个库吧。">
-<meta property="og:image" content="http://7xt6qm.com1.z0.glb.clouddn.com/Cookie-Library_201606292.png">
-<meta property="og:updated_time" content="2016-06-29T08:36:53.231Z">
+<meta property="og:image" content="http://7xt6qm.com1.z0.glb.clouddn.com/Cookie-Library201607080957.png">
+<meta property="og:updated_time" content="2016-07-08T02:17:12.736Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="个人快速开发库：Cookie-Library">
 <meta name="twitter:description" content="前言前前后后做了安卓开发也有些日子，但是唯一遗憾的是还没能做出什么像样的个人作品，虽然零零散散的倒是有那么几个。
@@ -268,7 +268,7 @@
 <p>现在总结自己开发的习惯，把自己常用的开发库和一些自己整理的工具类、自定义控件，一些基本类的基类等整合起来，做成一个快速开发库，供以后使用。虽说是自己用的，当然，如果你也感兴趣，也可以试试看，在使用过程中有什么好的建议，也欢迎互相交流。</p>
 <p>那么，接下来就开始简单的介绍一下这个库吧。</p>
 <a id="more"></a>
-<h2 id="u5E93_u7ED3_u6784_u56FE"><a href="#u5E93_u7ED3_u6784_u56FE" class="headerlink" title="库结构图"></a>库结构图</h2><p><img src="http://7xt6qm.com1.z0.glb.clouddn.com/Cookie-Library_201606292.png" alt="cookie-library"></p>
+<h2 id="u5E93_u7ED3_u6784_u56FE"><a href="#u5E93_u7ED3_u6784_u56FE" class="headerlink" title="库结构图"></a>库结构图</h2><p><img src="http://7xt6qm.com1.z0.glb.clouddn.com/Cookie-Library201607080957.png" alt="cookie-library"></p>
 <h2 id="u5E93_u7ED3_u6784_u4ECB_u7ECD"><a href="#u5E93_u7ED3_u6784_u4ECB_u7ECD" class="headerlink" title="库结构介绍"></a>库结构介绍</h2><p>整个库的名字叫做cookie-library，整个结构包括了Activity，Adapter，Application，Fragment，Interface，NetWork，Utils，Widget。</p>
 <h3 id="Activity"><a href="#Activity" class="headerlink" title="Activity"></a>Activity</h3><ul>
 <li>BaseActivity：Activity的基类</li>
@@ -313,18 +313,33 @@
 <li>AutoCardView：配合AutoLayout的CardView</li>
 <li>ClearableEditText：带清空功能的编辑框</li>
 <li>DateAndTimePicker：时间和日期选择器</li>
-<li>ListViewForScrollView：适配ScrollView的ListView</li>
+<li>MeasuredListView：自己适配高度的ListView，适用于嵌套在ScrollView内</li>
+<li>MeasuredGridView：自己适配高度的GridView，适用于嵌套在ScrollView，ListView内</li>
 <li>LoadAndRefreshView：上拉加载更多，下拉刷新控件</li>
 <li>NoScrollViewPager：不可以滑动的ViewPager</li>
 <li>RoundImageView：圆形ImageView</li>
 </ul>
-<h3 id="u5176_u4ED6"><a href="#u5176_u4ED6" class="headerlink" title="其他"></a>其他</h3><p>库内已经集成Material Design一系列支持库，GSON基础库，另外还有<a href="https://github.com/greenrobot/EventBus" target="_blank" rel="external">EventBus</a>，<a href="https://github.com/hongyangAndroid/AndroidAutoLayout" target="_blank" rel="external">AutoLayout</a>，<a href="https://github.com/elevenetc/TextSurface" target="_blank" rel="external">TextSurface</a>，<a href="https://github.com/jd-alexander/LikeButton" target="_blank" rel="external">LikeButton</a>，<a href="https://github.com/PhilJay/MPAndroidChart" target="_blank" rel="external">MPAndroidChart</a>等一些优秀的库。</p>
+<h3 id="u5176_u4ED6"><a href="#u5176_u4ED6" class="headerlink" title="其他"></a>其他</h3><p>库内已经集成Material Design一系列支持库，GSON基础库，另外还有:</p>
+<ul>
+<li><a href="https://github.com/wyouflf/xUtils3" target="_blank" rel="external">xUtils3</a></li>
+<li><a href="https://github.com/wasabeef/recyclerview-animators" target="_blank" rel="external">recyclerview-animators</a></li>
+<li><a href="https://github.com/CymChad/BaseRecyclerViewAdapterHelper" target="_blank" rel="external">BaseRecyclerViewAdapterHelper</a></li>
+<li><a href="https://github.com/greenrobot/EventBus" target="_blank" rel="external">EventBus</a></li>
+<li><a href="https://github.com/hongyangAndroid/AndroidAutoLayout" target="_blank" rel="external">AutoLayout</a></li>
+<li><a href="https://github.com/elevenetc/TextSurface" target="_blank" rel="external">TextSurface</a></li>
+<li><a href="https://github.com/jd-alexander/LikeButton" target="_blank" rel="external">LikeButton</a></li>
+<li><a href="https://github.com/PhilJay/MPAndroidChart" target="_blank" rel="external">MPAndroidChart</a></li>
+<li><a href="https://github.com/Dimezis/BlurView" target="_blank" rel="external">BlurView</a></li>
+<li><a href="https://github.com/H07000223/FlycoDialog_Master" target="_blank" rel="external">FlycoDialog</a></li>
+<li><a href="https://github.com/sd6352051/NiftyDialogEffects" target="_blank" rel="external">NiftyDialogEffects</a></li>
+</ul>
+<p>等一些优秀的库。</p>
 <h2 id="u4F7F_u7528_u65B9_u6CD5"><a href="#u4F7F_u7528_u65B9_u6CD5" class="headerlink" title="使用方法"></a>使用方法</h2><p>将库下载下来，将cookie-library作为Module导入项目即可。因为使用了其他的库，可能会报错，这个时候需要在app的build.gradle里加上如下代码即可：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">defaultConfig &#123;</span><br><span class="line">	...</span><br><span class="line">    renderscriptTargetApi <span class="number">19</span></span><br><span class="line">    renderscriptSupportModeEnabled <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">repositories</span> &#123;</span><br><span class="line">    <span class="title">maven</span> &#123; <span class="title">url</span> <span class="string">"https://jitpack.io"</span> &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>或者你可以去掉你不想使用的库。</p>
 <h2 id="u4E0B_u8F7D_u5730_u5740"><a href="#u4E0B_u8F7D_u5730_u5740" class="headerlink" title="下载地址"></a>下载地址</h2><p>GitHub：<a href="https://github.com/tsubasa-kun/Cookie-Library" target="_blank" rel="external">Cookie-Library</a></p>
-<h2 id="u81F4_u8C22"><a href="#u81F4_u8C22" class="headerlink" title="致谢"></a>致谢</h2><p>灵感来自：<a href="https://github.com/NateRobinson" target="_blank" rel="external">顾哥</a></p>
-<p>核心库：<a href="https://github.com/wyouflf/xUtils3" target="_blank" rel="external">xUtils3</a></p>
+<h2 id="u81F4_u8C22"><a href="#u81F4_u8C22" class="headerlink" title="致谢"></a>致谢</h2><p>灵感来自：<a href="https://github.com/NateRobinson" target="_blank" rel="external">NateRobinson</a></p>
 </span>
       
     </div>
